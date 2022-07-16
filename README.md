@@ -10,7 +10,7 @@ Solution of challenges from Discover course from Rocketseat school.
 * [RocketNews](https://jeadamek.github.io/discover-desafios/rocketNews/index.html)
 * Página de Receitas
 * Portfolio
-* Countdown
+* [Countdown](https://jeadamek.github.io/discover-desafios/countdown)
 * Slidebar
 * Theme Switcher
 * Pricing Table
