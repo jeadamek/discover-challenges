@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #4D4C59;
+  --purple: #6C63FF;
+	--light-grey: #C8C8C8;
+  --text-color: #9C9AB6;
+
+  font-size: 62.5%;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+
+  background: url(images/top-image.svg)  top, url(images/bottom-image.svg) bottom;
+  background-repeat: no-repeat;
+  background-size: 100vw;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+main{
+  width: 118rem;
+  height: 43.5rem;
+  margin: 15rem 6rem auto auto;
+  padding: 0 5rem;
+
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+section{
+  text-align: center;
+}
+
+h1{
+  font-size: 3.6rem;
+  line-height: 5.4rem;
+  font-weight: 700;
+  text-align: center;
+
+  text-transform: uppercase;
+  letter-spacing: 0.105em;
+  margin: 3.2rem auto 2rem;
+  
+  color: var(--purple);
+}
+
+#countdown-container {
+  display: flex;
+  gap: 1.2rem;
+}
+
+#countdown-container span{
+  text-transform: capitalize;
+  font-size: 1.4rem;  
+  line-height: 2.1rem;
+
+  color: var(--light-grey);
+}
+
+#countdown-container .colon{
+  /* flex: 0 0 49px; */
+  color: var(--black);
+  font-size: 7.2rem;
+  line-height: 10.8rem;
+  align-self: flex-end;
+}
+
+#countdown-container div > div{
+  min-width: 9.5rem;
+  color: var(--black);
+  font-size: 7.2rem;
+  line-height: 10.8rem;
+}
+
+p{
+  font-size: 1.4rem;  
+  line-height: 2.1rem;
+  color: var(--text-color);
+
+  margin: 3.2rem auto;
+}
+
+button{
+  color: #fff;
+  background: var(--purple);
+  font-family: 'Poppins';
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+
+  width: 16rem;
+  height: 4.6rem;
+
+  border: none;
+  border-radius: 10px;
+}
+
+button:hover{
+  background-color: #514bc4;
+  cursor: pointer;
+}
