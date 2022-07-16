@@ -4,6 +4,11 @@
   box-sizing: border-box;
  }
 
+:root{
+
+  font-size: 62.5%;
+}
+
 body {
   background: #eaeaea;
   font-family: 'Roboto', sans-serif;
@@ -12,19 +17,19 @@ body {
 #recipe-container{
   background: white;
   width: 70%;
-  margin: 40px auto;
-  padding: 30px;
+  margin: 4rem auto;
+  padding: 3rem;
   border-radius: 10px;
 }
 
 h1{
-  font-size: 1.75rem;
-  margin: 40px auto 30px;
+  font-size: 2.8rem;
+  margin: 4rem auto 3rem;
 }
 
 h2{
-  font-size: 1.25rem;
-  margin: 30px auto 20px;
+  font-size: 2rem;
+  margin: 3rem auto 2rem;
 }
 
 h1, h2{
@@ -40,20 +45,20 @@ figure {
 
 figure img{
   width: 100%;
-  height: 250px;
+  height: 25rem;
   object-fit: cover;
   border-radius: 10px;
-  margin-bottom: 5px;
+  margin-bottom: 0.5rem;
 }
 
 figure, footer{
-  font-size: 0.75rem;
+  font-size: 1.2rem;
   color: #8f8f8f;
 }
 
 p, ul li, ol li{
-  font-size: 1rem;
-  line-height: 2.5rem;
+  font-size: 1.6rem;
+  line-height: 4rem;
   color: #39393A;
 }
 
@@ -63,7 +68,7 @@ li{
 
 footer{
   text-align: center;
-  margin: 30px auto;
+  margin: 3rem auto;
 }
 
 footer a{
