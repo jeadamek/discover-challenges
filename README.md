@@ -8,7 +8,7 @@ Solution of challenges from Discover course from Rocketseat school.
 
 * [Social Tree](https://jeadamek.github.io/discover-desafios/social-tree)
 * [RocketNews](https://jeadamek.github.io/discover-desafios/rocketNews/index.html)
-* Página de Receitas
+* [Página de Receitas](https://jeadamek.github.io/discover-desafios/pagina-de-receita)
 * Portfolio
 * [Countdown](https://jeadamek.github.io/discover-desafios/countdown)
 * Slidebar
